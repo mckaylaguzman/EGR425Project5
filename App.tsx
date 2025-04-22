@@ -18,9 +18,9 @@ export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <Text style={styles.title}>Presenter Feedback</Text>
-      <FeedbackButton label="Slow Down" color="#F4A261" onPress={() => handleFeedback("SLOW")} />
+      <FeedbackButton label="Slow Down" color="#F4A261" onPress={() => handleFeedback("SLOW DOWN")} />
       <FeedbackButton label="Pause" color="#E76F51" onPress={() => handleFeedback("PAUSE")} />
-      <FeedbackButton label="Speed Up" color="#2A9D8F" onPress={() => handleFeedback("FAST")} />
+      <FeedbackButton label="Speed Up" color="#2A9D8F" onPress={() => handleFeedback("SPEED UP")} />
     </SafeAreaView>
   );
 }
